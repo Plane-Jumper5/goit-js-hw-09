@@ -1,4 +1,4 @@
-/* body {
+body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -34,4 +34,4 @@ img {
 .gallery-item:hover {
   transform: scale(1.0474);
   z-index: 1;
-} */
+}
