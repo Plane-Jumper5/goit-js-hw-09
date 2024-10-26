@@ -16,3 +16,78 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: auto 0;
+  background-color: #f4f4f4;
+}
+
+form.modal-form {
+  max-width: 400px;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  color: #808080;
+}
+
+.modal-form input,
+.modal-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.modal-form input:focus,
+.modal-form textarea:focus {
+  border-color: #4e75ff;
+}
+
+.modal-form textarea {
+  height: 120px;
+}
+
+.modal-form button {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  width: 95px;
+  height: 40px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-form button:hover {
+  background-color: #6c8cff;
+}
+
+@media (max-width: 400px) {
+  .modal-form {
+    width: 100%;
+    padding: 16px;
+  }
+}
