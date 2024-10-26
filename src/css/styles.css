@@ -25,7 +25,9 @@ body {
   margin: auto 0;
   background-color: #f4f4f4;
 }
-
+.back-link {
+  margin-right: 220px;
+}
 form.modal-form {
   max-width: 400px;
   padding: 32px;
